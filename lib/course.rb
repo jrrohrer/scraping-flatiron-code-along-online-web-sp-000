@@ -7,11 +7,11 @@ class Course
     @@all << self
   end
 
-  def self.all 
+  def self.all
     @@all
   end
 
-  def self.reset.all 
+  def self.reset.all
     @@all.clear
   end
 end
